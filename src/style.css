@@ -1,0 +1,32 @@
+body{
+	background-color: teal;
+}
+
+h1 {
+  padding: 30px;
+  text-align: center;
+  color: lime;
+  font-size: 50px;
+}
+
+div#wrapper{
+	background-color: green;
+    height: 600px;
+    width: 600px;
+	display:grid;
+	grid-template-columns: 45% 49%;
+	grid-gap:2em;
+	margin: auto;
+}
+
+#myButton {
+  background-color: gold;
+  padding: 20px 20px;
+  text-align: center;
+  display: inline-block;;
+  font-size: 30px;
+  margin: 5px 5px;
+  cursor: pointer;
+}
+
+
